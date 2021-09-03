@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.container{
+    margin:10% auto;
+    width: 50vmax;
+    height: auto;
+    border: 2px solid black;
+}
+.title{
+    text-align: center;
+    font-weight: 900;
+    font-size: 2em;
+}
+.content{
+
+    text-align: center;
+    padding: 5px 0;
+}
+.content input, #to-do-button{
+    font-size: 1.5em;
+    padding: 5px ;
+    margin-top: 10px;
+}
+#list{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    background-color: rgba(rgba(58, 51, 51, 0.979), green, blue, 1);
+    
+}
+li {
+
+    display: flex;
+    justify-content: space-between;
+    text-indent: 2em;
+    align-items: center;
+    list-style: none;
+    font-size: 2em;
+    margin-top: 5px;
+    word-wrap: break-word;
+}
+li button{
+    font-size: .5em;
+   margin-right: 1em;
+    background-color:transparent;
+}
